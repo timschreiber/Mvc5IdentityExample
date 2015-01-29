@@ -1,4 +1,4 @@
-# Mvc5IdentityExample
+# MVC5 ASP.NET Identity Example
 Source code for my Persistence-Ignorant ASP.NET Identity with Patterns blog post series.
 
 * [Part 1][1]
