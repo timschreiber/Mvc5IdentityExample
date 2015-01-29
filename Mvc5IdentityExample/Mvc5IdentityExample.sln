@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5IdentityExample.Web", "Mvc5IdentityExample.Web\Mvc5IdentityExample.Web.csproj", "{8F3401E4-B2AD-4ABD-9B31-E22A614C63C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5IdentityExample.Domain", "Mvc5IdentityExample.Domain\Mvc5IdentityExample.Domain.csproj", "{412D1589-9EB6-462E-9098-D5AC3AD652B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5IdentityExample.Data.EntityFramework", "Mvc5IdentityExample.Data.EntityFramework\Mvc5IdentityExample.Data.EntityFramework.csproj", "{7430D005-6111-46AF-81B3-DDE5A3F3A667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{FE75C894-CD43-4873-8AB3-A7ED91AF4DFA}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDatabase.sql = CreateDatabase.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F3401E4-B2AD-4ABD-9B31-E22A614C63C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3401E4-B2AD-4ABD-9B31-E22A614C63C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3401E4-B2AD-4ABD-9B31-E22A614C63C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3401E4-B2AD-4ABD-9B31-E22A614C63C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412D1589-9EB6-462E-9098-D5AC3AD652B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412D1589-9EB6-462E-9098-D5AC3AD652B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412D1589-9EB6-462E-9098-D5AC3AD652B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412D1589-9EB6-462E-9098-D5AC3AD652B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7430D005-6111-46AF-81B3-DDE5A3F3A667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7430D005-6111-46AF-81B3-DDE5A3F3A667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7430D005-6111-46AF-81B3-DDE5A3F3A667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7430D005-6111-46AF-81B3-DDE5A3F3A667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

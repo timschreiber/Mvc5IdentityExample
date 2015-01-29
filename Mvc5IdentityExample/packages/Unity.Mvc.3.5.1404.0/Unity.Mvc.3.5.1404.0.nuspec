@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Unity.Mvc</id>
+    <version>3.5.1404.0</version>
+    <title>Unity bootstrapper for ASP.NET MVC</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>http://unity.codeplex.com/</projectUrl>
+    <iconUrl>http://nuget.org/Media/Default/Packages/Unity/2.0/entlib_new_icon_100x100.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Unity is a lightweight extensible dependency injection container. This package is a Unity bootstrapper for ASP.NET MVC.</description>
+    <summary>This package is a Unity bootstrapper for ASP.NET MVC</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Unity Unity3 Unity35 EntLib EntLib6 IoC DI container dependency injection inversion control aspnet mvc aspnetmvc LOB OSS</tags>
+    <dependencies>
+      <dependency id="Unity" version="3.5.1404.0" />
+      <dependency id="WebActivatorEx" version="2.0" />
+      <dependency id="CommonServiceLocator" version="1.2" />
+      <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
